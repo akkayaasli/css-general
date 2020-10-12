@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+
+    <STYle>
+        table,tr,td,th{
+            border: 3px solid maroon;
+            border-collapse: collapse;
+        }
+
+        table{
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.5em;
+        }
+        th,td{
+            padding: 10px;
+        }
+
+        thead tr{
+            background: mediumaquamarine;
+            color: mistyrose;
+        }
+        tbody tr{
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even){
+            background: coral;
+        }
+
+        tbody tr:hover{
+            background: crimson;
+        }
+    </STYle>
+</head>
+<body>
+    <table class="employess">
+        <thead>
+            <tr>
+                <th>AD</th>
+                <th>DEPARTMAN</th>
+                <th>MAAŞ</th>
+            </tr>
+        </thead>
+
+        <tbody> 
+            <tr>
+                <td>A</td>
+                <td>BİLİŞİM</td>
+                <td>4500</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>HUKUK</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>M.A</td>
+                <td>ÇOCUK</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>A.A</td>
+                <td>İK</td>
+                <td>4200</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+<!--font-size: 1.5em;
+HALİHAZIRDAKİ BOYUTU 1.5 KAT ARTTIR.-->

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            
+            letter-spacing: 2px;
+
+            line-height: 1.5em;
+        }
+        .para1::first-line{
+            color: brown;
+        }
+        .para1::first-letter{
+            color: coral;
+            font-size: 50px;
+        }
+        .para2::after{
+            content: "paragraf sonuna ekleme böyle yapılıyor." ;
+            color: crimson;
+        }
+
+        .para2::before{
+            content: "paragraf öncesine ekleme bu şekilde yapılıyor.";
+            color: crimson;
+        }
+        
+        .para3{
+            font-size: 1.5em;
+            
+            letter-spacing: 2px;
+
+            line-height: 1.5em;
+        }
+        
+        .para3::before{
+            content: url("fenerbahce.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div>    
+        <p class="para1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, adipisci accusamus voluptate, amet aliquid neque cupiditate corporis nam qui dolore non sed, ea sunt? Iusto, ut. Quos ex assumenda harum repellendus rerum deleniti libero similique, iste ullam nisi hic a consequuntur voluptate rem neque reiciendis quis nam, culpa magni sed nulla quas perferendis in! Repellendus laudantium nobis quasi quibusdam impedit quos? Odio, corrupti aspernatur. Nemo deleniti eaque totam consectetur similique?
+        </p>
+    </div>
+
+    <div>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe ut ratione velit officia eum, illum corrupti ducimus minus corporis libero rerum at iure nihil aspernatur reprehenderit, nisi nobis adipisci excepturi, dolores quas? Tenetur deleniti hic natus nisi tempore, temporibus modi rem assumenda alias. Ducimus error, sint dolore voluptatum facilis exercitationem temporibus ratione at ullam ut, placeat, provident quisquam rem tempore mollitia harum pariatur aliquam maxime culpa esse nostrum laudantium sed rerum ipsam? Laboriosam delectus illum accusantium libero? Ea, assumenda.</p>
+    </div>
+
+    <div>
+        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus saepe ut ratione velit officia eum, illum corrupti ducimus minus corporis libero rerum at iure nihil aspernatur reprehenderit, nisi nobis adipisci excepturi, dolores quas? Tenetur deleniti hic natus nisi tempore, temporibus modi rem assumenda alias. Ducimus error, sint dolore voluptatum facilis exercitationem temporibus ratione at ullam ut, placeat, provident quisquam rem tempore mollitia harum pariatur aliquam maxime culpa esse nostrum laudantium sed rerum ipsam? Laboriosam delectus illum accusantium libero? Ea, assumenda.</p>
+    </div>
+
+</body>
+</html>

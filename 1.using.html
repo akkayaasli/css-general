@@ -1,0 +1,53 @@
+<!--KAYNAKLAR TASARIM İÇİN
+    1.)https://css-tricks.com/
+    2.)https://www.w3schools.com/css/
+    3.)https://codepen.io/search/pens?q=react-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <h1>ASLI AKKAYA</h1>
+    <p>
+    <h2 style="color:red;">Props Mantığı</h2><!--h2 ye css kısmında important dediğimiz için 
+        o özeliği alır burada verdiğimiz renk etkisiz-->
+
+    React Js ' de her bir component aslında bir fonksiyon.
+    Nasıl görünceklerini,
+    ekranda nasıl bir yer kaplayacaklarını da bu fonksiyonlara verdiğimiz, input değerleriyle belirliyoruz.
+    İşte bu input değerlere props diyoruz.
+    </p>
+
+    <h1>BİLGİSAYAR MÜHENDİSİ</h1>
+    <p id="bm">
+
+        const MyButton = (props)=>{
+        return(
+        <button> { props.text } </button>
+        )
+        }
+    </p>
+    <h1>BALIKESİR ÜNİVERSİTESİ</h1>
+
+    <p class="baun" id="baun_id">
+        Üzerindeki yazıyı dışarıdan props aracılığıyla alan basit bir button componenti. 
+        <span class="span_class">Bu componenti tekrar tekrar farklı props'lar ile kullanabiliriz. </span>
+    </p>
+
+    <ul>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+</body>
+
+</html>

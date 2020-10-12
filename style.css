@@ -1,0 +1,31 @@
+h1{
+    color:purple;
+}
+
+h2{
+    color:burlywood !important;
+}
+
+#bm 
+{
+    color:royalblue;
+}
+
+.baun
+{
+    color: salmon;
+}
+#baun_id.baun
+{
+    background-color: springgreen;
+}
+
+ul li a
+{
+    background-color: brown;
+}
+
+.baun .span_class
+{
+    background-color: cadetblue;
+}

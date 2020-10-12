@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTH-CHILD-SELECTOR</title>
+
+    <style>
+        p{
+            font-size: 1.5em;
+           
+        }
+        p:nth-child(1)
+        {
+            color:crimson;
+            background:darkorange;
+
+        }
+        p:nth-child(5)
+        {
+            color: darkred;
+            background: darksalmon;
+        }
+
+        p:nth-child(3)
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        ul{
+            font-size: 1.5em;
+            list-style-type: none;
+        }
+
+        ul li:nth-child(2n){
+            color:maroon;
+
+        }
+        ul li:nth-child(2n+1)
+        {
+            color: darkviolet;
+        }
+        ul li:nth-child(n+7){
+            background: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eligendi alias blanditiis exercitationem! Ab corporis fugiat, velit iusto magni eum nihil itaque porro, delectus, culpa officia distinctio. Sunt illum voluptatem earum distinctio. Quam quisquam rem ullam ut enim assumenda perferendis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem illo exercitationem rem. Distinctio, perferendis esse voluptatibus, quos laudantium sequi soluta maiores rem repudiandae cumque, corrupti temporibus quibusdam. Aliquam, quasi quis fugit illum explicabo molestiae cupiditate soluta facilis provident nihil placeat excepturi pariatur vitae perferendis animi neque aspernatur consequuntur, sunt at!
+    
+        </p>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque similique asperiores sit consectetur, est beatae reprehenderit nesciunt natus delectus voluptatum sequi laudantium doloremque cumque minima sapiente atque nisi distinctio! Enim alias neque ipsum qui, libero quibusdam in harum repudiandae laudantium officiis eveniet nostrum distinctio doloribus voluptatibus quis atque cupiditate exercitationem odit perspiciatis porro! Possimus voluptatem similique consequatur nam magnam.</p>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt commodi excepturi officia, porro est dolore aperiam facere a quia possimus asperiores exercitationem numquam nobis cum iste repellat ab ratione nemo itaque? Facere ratione aperiam consectetur recusandae ducimus in consequuntur maiores, sequi laborum, exercitationem voluptas libero tenetur, porro possimus similique hic sunt facilis unde odio et at omnis modi! In culpa itaque eius quasi dicta rerum repellendus iure ipsum non quia.</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quisquam deleniti dolor rem ipsa eum minima, veniam illo iure quod aut fuga aliquam? Tempore dolorum praesentium, mollitia minus accusantium dicta voluptas harum eius ad inventore laudantium, ea deleniti cum libero aspernatur dolorem quos omnis neque. Quos sequi laborum sapiente impedit ratione, sunt voluptate dolorem veritatis alias. Dolorem exercitationem quas necessitatibus architecto libero mollitia? Consectetur, commodi? Eius deleniti voluptatem quasi vitae quam necessitatibus aperiam, qui nihil quod provident quia pariatur magnam.</p>
+    
+    </div>
+
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+
+    </ul>
+
+
+</body>
+</html>
+
+
+<!--ul li:nth-child(2n+1)
+    {
+        color: darksalmon;
+
+    }
+    BURADA BİR DÖNGÜ OLUŞTURDUK GİBİ N=0 İSE 1,3,5,7...
+-->
